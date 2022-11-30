@@ -1,0 +1,74 @@
+
+.loginForm .img-right{
+    background-image: url("./z3752820748629_bc27dbf418492507e1fb11b81ddb631e.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+.loginForm .loginForm-left{
+    padding: 20px 0;
+    background-color: #fff;
+    color: #000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.loginForm  .title{
+    letter-spacing: -2px;
+    color: #cdcac5;
+}
+.loginForm  .title span{
+    color:#8c8070;
+}
+.loginForm  .title-form{
+    color: #513c29;
+    margin: 10px 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.loginForm .loginForm-left .content{
+    margin-bottom: 100px;
+}
+.loginForm .form-area{
+    width: 50%;
+    margin: auto auto;
+} 
+.loginForm  input{
+    background-color: #f8f3ed;
+    outline: none;
+    border: none;
+    margin: 5px 0;
+}
+.loginForm .btn{
+    width: 100%;
+    color: #fff;
+    background-color: #523b29;
+    height: 50px;
+    margin-top: 15px;
+}
+.verify{
+    width: 50%;
+    margin: auto auto;
+    position: absolute;
+    bottom: -30px;
+    border-radius: 10px;
+    left: 35%;
+    display: none;
+}
+.verify .form-area{
+    text-align: left;
+    width: 80%;
+    margin: auto auto;
+}
+.verify .verify-title{
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .loginForm .form-area{
+        width: 90%;
+        margin: auto auto;
+    } 
+  }
